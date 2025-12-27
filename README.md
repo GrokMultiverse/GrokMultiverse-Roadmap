@@ -1,3 +1,10 @@
+[![Grok Multiverse Roadmap](https://img.shields.io/badge/Grok_Multiverse-Roadmap_%F0%9F%9F%A2-9945FF?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiNmZmYiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48cGF0aCBkPSJNMy41IDloN2EyLjUgMi41IDAgMCAxIDIuNSAyLjV2M002IEg0Yy0uODMgMC0xLjUtLjY3LTEuNS0xLjV2LTdoMXY2Ii8+PHBhdGggZD0iTTE0IDkuNXY2Ljc1YTIgMiAwIDAgMCAxLjg5IDEuOTlMMTkuNSAyMWExIDEgMCAwIDAgLjUgLTF2LThjMC0uODMtLjY3LTEuNS0xLjUtMS41aC03Ii8+PC9zdmc+)](https://grokmultiversedashboard.netlify.app/)
+[![Phase 01 Live](https://img.shields.io/badge/Phase_01-Points_Farming_Live-%F0%9F%94%B4?style=for-the-badge&logo=solana&logoColor=white)](https://grokmultiversedashboard.netlify.app/)
+[![Solana Devnet](https://img.shields.io/badge/Network-Devnet-00D1B2?style=for-the-badge&logo=solana&logoColor=white)](https://explorer.solana.com/address/DzsNMUqVhpyj6rznbph4jjDKTshPaKdWVHYHDBETYgXE?cluster=devnet)
+
+
+
+
 # Grok Multiverse Roadmap 🌌
 
 Public roadmap and transparency hub for the Grok Multiverse ecosystem – an AI × Meme × Solana NFT project built on high-frequency trading innovation and decentralized participation.
