@@ -13,36 +13,50 @@
 
 
 
+# GrokMultiverse
 
-# GrokMultiverse Documentation
+GrokMultiverse is a phased, on-chain ecosystem built on Solana, designed to
+reward early participation through points farming, referral incentives,
+NFT minting, and a transparent token airdrop model.
 
-Welcome to the official documentation hub for **GrokMultiverse**.
-
-This site provides an overview of the project vision, phased roadmap,
-and participation mechanics.
+The project follows a strict phase-based unlock mechanism enforced on-chain,
+ensuring fair access, controlled growth, and verifiable participation.
 
 ---
 
 ## 📘 Lite Paper
 
-The complete Lite Paper is available here:
+The Lite Paper explains the full vision, architecture, phases, NFT framework,
+tokenomics, and airdrop logic of GrokMultiverse.
 
-👉 [Read the GrokMultiverse Lite Paper](../LITEPAPER.md)
+👉 **Read the full Lite Paper:**  
+[LITEPAPER.md](./LITEPAPER.md)
 
 ---
 
-## 🌐 Dashboard Access
+## 🌐 Dashboard
 
-Interact with the GrokMultiverse ecosystem via the official dashboard:
+User interaction, points tracking, referral management, and mint eligibility
+are accessible via the official dashboard:
 
 🔗 https://grokmultiversedashboard.netlify.app
 
 ---
 
-## 📌 About GrokMultiverse
+## 📂 Repository Purpose
 
-GrokMultiverse is built with a participation-first philosophy, enforcing
-fair access and transparent rewards through on-chain logic on Solana.
+This repository focuses on:
+- Project roadmap and lifecycle phases
+- Lite Paper and documentation
+- Tokenomics and airdrop methodology
+- Public-facing project specifications
 
-All critical eligibility rules are enforced at the program level,
-with phased feature unlocks controlled by on-chain governance.
+Smart contract source code is maintained separately in the **GrokMultiverse Core** repository.
+
+---
+
+## ⚠️ Disclaimer
+
+GrokMultiverse Devnet assets are deployed for testing and validation purposes only.
+They do not represent financial instruments or guarantees of future value.
+Participation is voluntary and subject to project rules and on-chain conditions.
