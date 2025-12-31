@@ -167,18 +167,13 @@ To claim the airdrop, users must:
 UserAirdrop =
 (UserPoints × 8,400,000) / TotalSystemPoints
 
-
-
 ---
 
-
-
-
-# 🔹 Post-Airdrop Utility
+# Post-Airdrop Utility
 
 Even after the airdrop phase concludes, the **GrokMultiverse ecosystem** continues to thrive by providing long-term value and engagement opportunities to its community.  
 
-### Key Drivers
+## Key Drivers
 
 1. **NFT Utility & Trading**
    - Mainnet NFT holders can trade on Magic Eden and secondary marketplaces.
@@ -200,7 +195,7 @@ Even after the airdrop phase concludes, the **GrokMultiverse ecosystem** continu
    - On-chain and off-chain metrics (points, NFT stats, leaderboards) keep users engaged.
    - Provides visibility into achievements and progress within the ecosystem.
 
-### Sustainability Summary
+## Sustainability Summary
 
 | Feature | Post-Airdrop Fuel |
 |---------|------------------|
