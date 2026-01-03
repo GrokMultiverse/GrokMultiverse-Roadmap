@@ -1,10 +1,11 @@
 # GrokMultiverse Lite Paper 🌌
 
 [![Phase 01](https://img.shields.io/badge/Phase_01-Points_Farming_LIVE-%F0%9F%9F%A2?style=for-the-badge&logo=solana)](https://grokmultiversedashboard.netlify.app/) 
-[![Phase 02](https://img.shields.io/badge/Phase_02-NFT_Minting_LIVE-%F0%9F%94%A5?style=for-the-badge&logo=solana&logoColor=orange)](https://grokmultiversedashboard.netlify.app/) 
+[![Phase 02](https://img.shields.io/badge/Phase_02-NFT_Minting_COMING_SOON-orange?style=for-the-badge&logo=solana)](https://grokmultiversedashboard.netlify.app/) 
 [![Phase 03](https://img.shields.io/badge/Phase_03-Mainnet_NFT_Locked-808080?style=for-the-badge&logo=solana)](https://grokmultiversedashboard.netlify.app/) 
-[![Program](https://img.shields.io/badge/Program-Verified-00D1B2?style=for-the-badge&logo=solana)](https://explorer.solana.com/address/DzsNMUqVhpyj6rznbph4jjDKTshPaKdWVHYHDBETYgXE?cluster=devnet)
-[![Roadmap Status](https://img.shields.io/badge/Status-Shipping_Fast-9945FF?style=for-the-badge&logo=rocket)](https://grokmultiversedashboard.netlify.app/)
+[![Phase 04](https://img.shields.io/badge/Phase_04-Tokenomics_Locked-808080?style=for-the-badge&logo=solana)](https://grokmultiversedashboard.netlify.app/) 
+[![Phase 05](https://img.shields.io/badge/Phase_05-Token_Launch_Locked-808080?style=for-the-badge&logo=solana)](https://grokmultiversedashboard.netlify.app/)
+
 
 ---
 
