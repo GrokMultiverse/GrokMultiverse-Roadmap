@@ -9,14 +9,18 @@
 
 ---
 
-**Version 1.0 – Public Release (2026)**
+**Version 1.0 – Public Release (January 2026)**
 
 ---
 
 ## 1. Executive Summary
 **GrokMultiverse** is a phased, on-chain ecosystem on Solana that rewards early users through task-based engagement, NFT ownership, and a points-driven token airdrop. 
 
-All GMV tokens are **minted directly via our own smart contract**, ensuring full transparency. No seed rounds, private sales, or pump.fun mechanisms are involved. 
+All GMV tokens are **minted directly via our own smart contract**, ensuring full transparency. No seed rounds, private sales, or pump.fun mechanisms are involved.
+
+**⚠️ Important Disclaimer:**  
+GrokMultiverse ($GMV) is an independent, community-driven project on Solana.  
+It has **no affiliation, endorsement, or connection** with xAI, Elon Musk, or the Grok AI chatbot developed by xAI.
 
 ---
 
@@ -33,6 +37,8 @@ All GMV tokens are **minted directly via our own smart contract**, ensuring full
 - Built using the **Anchor Framework (Rust)** on Solana.
 - Manages User PDAs, social task verification, and NFT mint eligibility.
 - **Admin Security:** Sensitive operations like task verification and global state management are restricted to the authorized master wallet: `PWTPrTgMX2WM1gbsFSib7RrYiXPEvVR6t13n1zWht4G`.
+- **Devnet Program ID:** `8D7Pw7foY4ba7AJU18Pyq8gUTKAo71j3n3Lo8rDRjw4y`  
+  → Verify all on-chain activity here: https://explorer.solana.com/address/8D7Pw7foY4ba7AJU18Pyq8gUTKAo71j3n3Lo8rDRjw4y?cluster=devnet
 
 ---
 
@@ -91,14 +97,15 @@ All interaction data is stored immutably on-chain in the User's Account PDA. Not
 - Verified on-chain activity.
 
 **Formula:**
-$$UserAirdrop = \frac{UserPoints \times 8,400,000}{TotalSystemPoints}$$
+\[ UserAirdrop = \frac{UserPoints \times 8,400,000}{TotalSystemPoints} \]
 
 ---
 
 ## 🗺 Ecosystem Repositories
 Explore the other components of the GrokMultiverse ecosystem:
-- [Grok-Multiverse-NFT-Resources](https://github.com/GrokMultiverse/Grok-Multiverse-NFT-Resources) - Assets & Metadata
+- [grok-multiverse-nft-resources](https://github.com/GrokMultiverse/grok-multiverse-nft-resources) - Assets & Metadata
 - [GrokMultiverse-Roadmap](https://github.com/GrokMultiverse/GrokMultiverse-Roadmap) - Project Milestones & Vision
+- [GrokMultiverse-Core](https://github.com/GrokMultiverse/GrokMultiverse-Core) - Core Smart Contracts (Public post-audit)
 
 ---
 
