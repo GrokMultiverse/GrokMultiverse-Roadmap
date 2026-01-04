@@ -6,110 +6,133 @@
 [![Phase 04](https://img.shields.io/badge/Phase_04-Tokenomics_Locked-808080?style=for-the-badge&logo=solana)](https://grokmultiversedashboard.netlify.app/) 
 [![Phase 05](https://img.shields.io/badge/Phase_05-Token_Launch_Locked-808080?style=for-the-badge&logo=solana)](https://grokmultiversedashboard.netlify.app/)
 
+---
+
+**Version 1.1 – January 2026**
 
 ---
 
-**Version 1.0 – Public Release (January 2026)**
+## Executive Summary
+**GrokMultiverse** is a community-driven ecosystem on Solana that rewards long-term participation through on-chain tasks, digital collectible NFTs, and a points-based token economy.
+
+The $GMV token will be minted and distributed exclusively through audited custom smart contracts. There are no seed rounds, private sales, or third-party launchpads.
+
+**⚠️ Disclaimer**  
+GrokMultiverse ($GMV) is an independent, community-driven project inspired by multiverse and AI themes.  
+It has **no affiliation, endorsement, or connection** with xAI, Elon Musk, or the official Grok AI developed by xAI.
 
 ---
 
-## 1. Executive Summary
-**GrokMultiverse** is a phased, on-chain ecosystem on Solana that rewards early users through task-based engagement, NFT ownership, and a points-driven token airdrop. 
-
-All GMV tokens are **minted directly via our own smart contract**, ensuring full transparency. No seed rounds, private sales, or pump.fun mechanisms are involved.
-
-**⚠️ Important Disclaimer:**  
-GrokMultiverse ($GMV) is an independent, community-driven project on Solana.  
-It has **no affiliation, endorsement, or connection** with xAI, Elon Musk, or the Grok AI chatbot developed by xAI.
+## Vision
+- Build a sustainable, self-governed token ecosystem on custom smart contracts.
+- Reward authentic, long-term community participation.
+- Ensure full on-chain transparency via Solana.
+- Drive value through NFT ownership and phased unlocks.
+- Transition Devnet engagement into lasting Mainnet utility.
 
 ---
 
-## 2. Vision & Objectives
-- Build a **self-governed token ecosystem** through custom smart contracts.
-- Reward **authentic participation** and social engagement.
-- Maintain **full on-chain transparency** via the Solana Ledger.
-- Use **phased unlocks** for controlled and sustainable growth.
-- Bridge **Devnet activities** into **Mainnet value**.
-
----
-
-## 3. Ecosystem Architecture
-- Built using the **Anchor Framework (Rust)** on Solana.
-- Manages User PDAs, social task verification, and NFT mint eligibility.
-- **Admin Security:** Sensitive operations like task verification and global state management are restricted to the authorized master wallet: `PWTPrTgMX2WM1gbsFSib7RrYiXPEvVR6t13n1zWht4G`.
+## Architecture
+- Built with **Anchor Framework (Rust)** on Solana.
+- Manages user PDAs, task verification, NFT eligibility, and token distribution.
+- **Admin Wallet:** `PWTPrTgMX2WM1gbsFSib7RrYiXPEvVR6t13n1zWht4G`
 - **Devnet Program ID:** `8D7Pw7foY4ba7AJU18Pyq8gUTKAo71j3n3Lo8rDRjw4y`  
-  → Verify all on-chain activity here: https://explorer.solana.com/address/8D7Pw7foY4ba7AJU18Pyq8gUTKAo71j3n3Lo8rDRjw4y?cluster=devnet
+  → [Solana Explorer (Devnet)](https://explorer.solana.com/address/8D7Pw7foY4ba7AJU18Pyq8gUTKAo71j3n3Lo8rDRjw4y?cluster=devnet)
 
 ---
 
-## 4. 5-Phase Roadmap Expansion
-- **Phase 1: Task & Points Farming** – Social engagement and point accumulation (LIVE on Devnet).
-- **Phase 2: Devnet NFTs** – Genesis "Early Bird" collection minting for verified users.
-- **Phase 3: Mainnet NFTs** – Official migration to Mainnet and secondary market trading.
-- **Phase 4: Tokenomics & Utility** – Implementation of the $GMV economic model and utility features.
-- **Phase 5: Official Token Launch** – $GMV Airdrop distribution to verified participants.
+## Roadmap
+1. **Phase 1** – Points Farming (LIVE on Devnet)  
+2. **Phase 2** – Devnet NFT Minting  
+3. **Phase 3** – Mainnet NFT Launch & Trading  
+4. **Phase 4** – Tokenomics & Utility Activation  
+5. **Phase 5** – $GMV Token Launch & Airdrop
 
 ---
 
-## 5. Task & Point System
-| Action | Points |
-|--------|--------|
-| Account Initialization | 1,000 PTS |
-| Social Task Completion | 400 PTS (Total) |
+## Points System
+| Action                  | Points   |
+|-------------------------|----------|
+| Account Initialization  | 1,000 PTS |
+| Social Tasks            | 400 PTS  |
 
-**Hard Cap per User:** 1,400 PTS  
-All interaction data is stored immutably on-chain in the User's Account PDA. Note: Referrals drive community growth but do not award additional points to ensure a fair distribution cap.
-
----
-
-## 6. NFT Framework
-### Devnet NFT (Early Access)
-- **Purpose:** Testing, engagement verification, and eligibility.
-- **Supply:** 100,000.
-- **Access:** Requires account initialization and base task completion.
-
-### Mainnet NFT (Genesis)
-- **Eligibility:** Verified Devnet participants and point earners.
-- **Supply:** 100,000.
-- **Royalties:** 7% for ecosystem development and maintenance.
-- **Trading:** Secondary market support (e.g., Magic Eden) enabled post-mint.
+**Max per User:** 1,400 PTS  
+All data stored immutably on-chain. Referrals encourage growth but do not award extra points to maintain fairness.
 
 ---
 
-## 7. Tokenomics (GMV)
-**Token Symbol:** $GMV  
-**Total Supply:** 21,000,000
+## NFT Collections
 
-| Allocation | Percentage |
-|------------|------------|
-| Community Airdrop | 40% |
-| Team (5-Year Vesting) | 40% |
-| Ecosystem Maintenance| 10% |
-| Marketing & Growth | 9% |
-| Donations | 1% |
+### Devnet NFTs (Early Access)
+- Supply: 100,000
+- Purpose: Engagement verification & Mainnet eligibility
 
----
-
-## 8. Airdrop Distribution Model
-**Eligibility:**
-- Must hold a Mainnet NFT.
-- Must have reached the 1,400 PTS base task cap.
-- Verified on-chain activity.
-
-**Formula:**
-\[ UserAirdrop = \frac{UserPoints \times 8,400,000}{TotalSystemPoints} \]
+### Mainnet Genesis Collection
+- Supply: 100,000
+- Royalties: 7% → Ecosystem treasury (development, rewards, marketing)
+- Trading: Magic Eden, Tensor, and other Solana marketplaces
+- Utility: Required for $GMV airdrop eligibility + future governance and ecosystem features
 
 ---
 
-## 🗺 Ecosystem Repositories
-Explore the other components of the GrokMultiverse ecosystem:
-- [grok-multiverse-nft-resources](https://github.com/GrokMultiverse/grok-multiverse-nft-resources) - Assets & Metadata
-- [GrokMultiverse-Roadmap](https://github.com/GrokMultiverse/GrokMultiverse-Roadmap) - Project Milestones & Vision
-- [GrokMultiverse-Core](https://github.com/GrokMultiverse/GrokMultiverse-Core) - Core Smart Contracts (Public post-audit)
+## Tokenomics ($GMV)
+**Total Supply:** 21,000,000 (fixed)  
+**Token Type:** Custom SPL Token on Solana Mainnet
+
+| Allocation                | Percentage | Amount      | Vesting / Notes                              |
+|---------------------------|------------|-------------|----------------------------------------------|
+| Community Airdrop         | 40%        | 8,400,000   | Points + NFT-based distribution              |
+| Team & Contributors       | 40%        | 8,400,000   | 5-year linear vesting (no unlocks year 1)    |
+| Ecosystem Treasury        | 10%        | 2,100,000   | Development, partnerships, holder rewards     |
+| Marketing & Growth        | 9%         | 1,890,000   | Controlled community initiatives             |
+| Charitable Donations      | 1%         | 210,000     | Community-voted causes                       |
+
+**Safety Measures**
+- Team allocation: 5-year linear vesting
+- Initial liquidity: Locked or burned at launch
+- All critical contracts: Third-party audited before Mainnet token deployment
 
 ---
 
-## 📜 License
-This project is licensed under the MIT License.
+## Airdrop Model
+**Eligibility**
+- Hold at least one Mainnet Genesis NFT
+- Completed full 1,400 PTS task cap on Devnet
+- Verified on-chain activity (snapshot at end of Phase 4)
 
-©2026 GrokMultiverse | Built on **Solana**.
+**Distribution**
+- 50% of calculated share claimable immediately
+- Remaining 50% vested over 5 years (same schedule as team)
+
+**Post-Vesting Bonus**  
+Loyal holders still owning original NFTs after the 5-year period will be eligible for an additional airdrop from the Ecosystem Treasury.
+
+**Airdrop Calculation**  
+User's share of the 8,400,000 community tokens is determined proportionally by points earned:
+
+**User Share = (User Points × 8,400,000) ÷ Total Qualified Points**
+
+---
+
+## Future Utility & Governance
+Post-token launch, planned $GMV utilities include:
+- Staking for additional rewards
+- Community governance voting
+- In-ecosystem purchases and upgrades
+- Potential metaverse or gaming integrations
+
+---
+
+## Repositories
+- [grok-multiverse-nft-resources](https://github.com/GrokMultiverse/grok-multiverse-nft-resources) – NFT Assets & Metadata
+- [GrokMultiverse-Roadmap](https://github.com/GrokMultiverse/GrokMultiverse-Roadmap) – Milestones & Vision
+- [GrokMultiverse-Core](https://github.com/GrokMultiverse/GrokMultiverse-Core) – Core Smart Contracts (Public & Audited)
+
+---
+
+## License
+MIT License – Open for community review and contribution.
+
+© 2026 GrokMultiverse | Built transparently on **Solana**
+
+> **Note:** This Lite Paper (v1.1) reflects the current planned structure. Final details may be refined based on community feedback and audit recommendations. All updates will be announced publicly.
